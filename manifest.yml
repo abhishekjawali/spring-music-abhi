@@ -1,0 +1,10 @@
+---
+applications:
+- name: spring-music
+  memory: 512M
+  instances: 1
+  host: spring-music-abhi-777q
+  path: build/libs/spring-music.war
+  services:
+  - mysql
+
